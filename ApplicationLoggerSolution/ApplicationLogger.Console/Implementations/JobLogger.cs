@@ -1,5 +1,4 @@
-﻿
-namespace ApplicationLogger.Console.Implementations
+﻿namespace ApplicationLogger.Console.Implementations
 {
     using System;
     using System.Collections.Generic;

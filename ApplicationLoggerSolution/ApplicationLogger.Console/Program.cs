@@ -18,9 +18,9 @@
             jobLogger.AddMessageType(LogMessageType.Warning);
             jobLogger.AddMessageType(LogMessageType.Message);
 
-            jobLogger.LogMessage(LogMessageType.Error, "There was un expected error");
-            jobLogger.LogMessage(LogMessageType.Warning, "Something is happening in your system");
-            jobLogger.LogMessage(LogMessageType.Message, "Just doing a test");
+            jobLogger.LogMessage(LogMessageType.Error, "Error: There was un expected error");
+            jobLogger.LogMessage(LogMessageType.Warning, "Warning: Something is happening in your system");
+            jobLogger.LogMessage(LogMessageType.Message, "Message : Just doing a test");
 
             Console.ReadKey();
         }

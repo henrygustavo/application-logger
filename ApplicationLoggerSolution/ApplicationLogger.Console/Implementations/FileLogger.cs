@@ -1,5 +1,4 @@
-﻿
-namespace ApplicationLogger.Console.Implementations
+﻿namespace ApplicationLogger.Console.Implementations
 {
     using Enums;
     using Interfaces;
