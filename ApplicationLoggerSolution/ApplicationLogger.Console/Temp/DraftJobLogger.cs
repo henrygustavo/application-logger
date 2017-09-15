@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class JobLogger
+    public class DraftJobLogger
     {
 
         private static bool _logToFile;
@@ -12,7 +12,7 @@
         private static bool _logError;
         private static bool _logToDatabase;
 
-        public JobLogger(bool logToFile, bool logToConsole, bool logToDatabase, bool logMessage, bool logWarning, bool logError)
+        public DraftJobLogger(bool logToFile, bool logToConsole, bool logToDatabase, bool logMessage, bool logWarning, bool logError)
         {
             _logError = logError;
             _logMessage = logMessage;
